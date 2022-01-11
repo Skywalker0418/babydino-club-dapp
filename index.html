@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Baby Dino Club NFT</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Baby Dino club, nft, baby Dino, stealth, mint, free mint, baby animal club, baby animal playground" name="keywords">
+  <meta content="Baby Dino Club is a collection of 3333 unique NFTs on the Ethereum blockchain and part of the baby animal club. Each dino serves as a mint pass for all future collections of the baby animal series." name="description">
+
+  <!-- Favicons -->
+  <!-- <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <!-- <link href="lib/venobox/venobox.css" rel="stylesheet"> -->
+  <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+         <li><a href="#what">About</a></li>
+          <li><a href="#friends">Sneak Peak</a></li>
+          <li><a href="#team">The Team</a></li>
+          <li><a href="#footer">Socials</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+  	<!-- <img src="img/banner.jpg" class="img-fluid"> -->
+    <div class="intro-container">
+      <h1 class="mb-4 pb-0 s55">WELCOME TO THE <br> BABY DINO CLUB</h1>
+      <!-- <a href="https://babydino.club/" class="about-btn .d-none">Mint Now</a> -->
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      Mint Section
+    ============================-->
+    <section id="mint" class="">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 friend-container">
+              <img src="img/gif animation.gif" alt="Speaker 1" class="img-fluid mint-friend1">
+            </div>
+            <div class="col-lg-6 col-md-6 mint-container">
+              <div class="speaker mint-main">
+                <h3 class="n30"><span id='ts_'>0</span> / 3333</h3>
+                <p class="p12 black">0xdcdeaD2165405...</p>
+                <p class="p14">1 Baby Dino costs <span id='bdc_price'>0.01</span> ETH.</p>
+                <p class="p12">Excluding gas fees.</p>
+                
+                <div class="connect-wallet">
+                  <p class="p12">Connect to the Ethereum network</p>                
+                  <button class="btn btn-black" onclick='window.connectWallert()'>CONNECT</button>
+                </div>
+                
+                <div class="mint-process hidden">
+                  <p class="p12">Click buy to mint your NFT.</p> 
+                  <div style="margin-bottom: 12px;">
+                    <button class='btn btn-black-circle' onclick="decrease()">-</button>
+                    <span class='mint-num' id='buyAmount'>1</span>
+                    <button class='btn btn-black-circle' onclick="increase()">+</button>
+                  </div>
+                  <div>
+                    <button class="btn btn-black" onclick="buy()">BUY</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 friend-container">
+              <img src="img/gif animation.gif" alt="Speaker 1" class="img-fluid mint-friend2">
+            </div>          
+        </div>
+        <div class="row">
+          <div class="speaker note-container">
+          
+          Please make sure you are connected to the right network(Ethereum Mainnet) and the correct address. Please note: Once you make the purchase, you can not undo this action.
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="what" class="">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="ssixty">WHAT IS THE BABY DINO CLUB</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="speaker">
+              <p class="s22">The Baby Dino Club is a SERIES of NFT collections designed around<br/> having fun and remembering our joyous times as children.</p>
+              <p class="s22">The first collection is the Baby Dino Club which is a series of 3333 <br/>ERC-721 NFTs on the Ethereum blockchain.</p>
+              <p class="s22">One of our goals as a team is to make sure our HODLERs and believers in<br/> our project are greatly rewarded and not let down by overambitious<br/> roadmaps.</p>
+            <p class="s22">Our team believes the best way to reward HODLERs is to reward <br/>them with FREE MINTS to future collections which are part of the Baby Dino <br/>Club.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="friends" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2 class="ssixty">Check out some of our friends</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+              <h3 class="s40">The Baby Dino Club</h3>
+              <img src="img/friend1.png" alt="Speaker 1" class="img-fluid">
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+            <h3 class="s40">The Baby Bear Club</h3>
+              <img src="img/friend2.png" alt="Speaker 1" class="img-fluid">
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+            <h3 class="s40">The Baby ??? Club</h3>
+              <img src="img/friend3.png" alt="Speaker 1" class="img-fluid">
+              
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="team" class="">
+
+        <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2 class="ssixty">Meet The Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+              <img src="img/ethan.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3 class="s44">Ethan</h3>
+                <p class="s27">Club Owner</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+              <img src="img/garry.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3 class="s44">Jerry</h3>
+                <p class="s27">Club Developer</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+           <div class="speaker">
+              <img src="img/tez.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3 class="s44">Tez</h3>
+                <p class="s27">Club Artist</p>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+   
+
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6"></div>
+          <div class="col-lg-4 col-md-6">
+             <a href="https://opensea.io/collection/babydinoclub" ><img src="img/opensea.png" alt="Speaker 1" class="resImage"></a>
+              <a href="https://twitter.com/babyanimalnft" ><img src="img/twitter.png" alt="Speaker 1" class="resImage"></a>
+               <a href="https://discord.com/invite/aga9rkm7BB" ><img src="img/discord.png" alt="Speaker 1" class="resImage"></a>
+             </div>
+          <div class="col-lg-4 col-md-6"></div>
+        </div>
+      </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <!-- <script src="lib/superfish/hoverIntent.js"></script> -->
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/web3.min.js"></script>
+  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
+
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
