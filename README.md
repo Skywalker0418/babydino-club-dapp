@@ -1,6 +1,6 @@
-#BABYDINO.CLUB NFT Dapp
+# BABYDINO.CLUB NFT Dapp
 
-##simple description
+## simple description
 
 By using Web3.js with pure javascript, it aims to build a nft minting page.
 
