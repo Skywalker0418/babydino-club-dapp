@@ -177,7 +177,7 @@ jQuery(document).ready(function( $ ) {
     }
 
   }
-  window.connectWallert = async () => {
+  window.connectWallet = async () => {
     if (window.ethereum) {
       if (parseInt(window.ethereum.chainId) != CHAIN_ID) {
         console.log('Please select the mainnet');
